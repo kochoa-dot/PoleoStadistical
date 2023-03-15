@@ -46,20 +46,20 @@ public class Incidents {
 
             incidentsList.add(new Incidents(new Date(), selectedCountry[0][1], selectedBrand[0][1], selectedShop[0][1], selectedArea.getAreaName(), selectedArea.getManager(), selectedError.getNameError()));
 
-            System.out.println("Desea agregar otro incidente? Y/n");
+            System.out.println("You want to enter another incident? Y/n");
             option = scanner.next().toUpperCase();
             if (option.equals("Y")) {
                 newIncident = true;
             } else if (option.equals("N")) {
                 newIncident = false;
             } else {
-                System.out.println("Opción inválida. Por favor ingrese Y o N.");
+                System.out.println("Invalid option: please enter Y or N.\n");
             }
         }
         return incidentsList;
     }
     public void printIncidents(ArrayList<Incidents> incidentList){
-        System.out.printf("%-12s%-12s%-12s%-12s%-12s%-18s%-12s\n", "Fecha", "Country", "Brand", "Shop", "Area", "Manager", "Error");
+        System.out.printf("%-12s%-12s%-12s%-12s%-12s%-18s%-12s\n", "Date", "Country", "Brand", "Shop", "Area", "Manager", "Error");
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         for (Incidents incident: incidentList) {
             System.out.printf("%-12s%-12s%-12s%-12s%-12s%-18s%-12s\n",

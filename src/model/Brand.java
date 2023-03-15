@@ -13,7 +13,7 @@ public class Brand implements IBrand{
         int option;
 
         while (true) {
-            System.out.println("Seleccione la marca");
+            System.out.println("Select a brand");
             for (String[] brand : brands) {
                 String idCountry = brand[1];
                 if (idCountry.equals(selectedCountry)){
@@ -35,10 +35,10 @@ public class Brand implements IBrand{
                 if (validOption) {
                     break;
                 } else {
-                    System.out.println("Error: debe ingresar un número válido");
+                    System.out.println("Error: You must enter a valid number\n");
                 }
             } else {
-                System.out.println("Error: debe ingresar un número entero");
+                System.out.println("Error: You must enter an integer number\n");
                 scanner.next();
             }
         }

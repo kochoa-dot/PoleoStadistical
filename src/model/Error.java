@@ -34,7 +34,7 @@ public class Error implements IError{
         int option;
 
         while (true){
-            System.out.println("Seleccione el error generado");
+            System.out.println("Select generated error");
             for (Error error : errorList){
                 if (error.idArea == idArea){
                     System.out.println(error.getIdError() + ". " + error.getNameError());
@@ -53,10 +53,10 @@ public class Error implements IError{
                 if (validOption){
                     break;
                 } else {
-                    System.out.println("Error: debe ingresar un número válido");
+                    System.out.println("Error: You must enter a valid number\n");
                 }
             } else {
-                System.out.println("Error: debe ingresar un número entero");
+                System.out.println("Error: You must enter an integer number\n");
                 scanner.next();
             }
         }

@@ -34,7 +34,7 @@ public class Areas implements IAreas{
         int option;
 
         while (true){
-            System.out.println("Seleccione el area de la incidencia");
+            System.out.println("Select the incident area");
             for (Areas area : areasList) {
                 System.out.println(area.idArea + ". " + area.areaName);
             }
@@ -52,10 +52,10 @@ public class Areas implements IAreas{
                 if (validOption){
                     break;
                 } else {
-                    System.out.println("Error: debe ingresar un número válido");
+                    System.out.println("Error: You must enter a valid number\n");
                 }
             } else {
-                System.out.println("Error: debe ingresar un número entero");
+                System.out.println("Error: You must enter an integer number\n");
                 scanner.next();
             }
         }

@@ -1,11 +1,0 @@
-
-6
-java:S1700	"Rename field "shops"(òÕ“Ëüÿÿÿÿ8á šî0
-“
-java:S1845	"qRename field "shops" to prevent any misunderstanding/clash with field "SHOPS" defined in interface "model.IShop".(òÕ“Ëüÿÿÿÿ8¿¡šî0
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(´•üÿÿÿÿ8Á¡šî0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ó÷İàıÿÿÿÿ8Ã¡šî0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(©«8Ä¡šî0
-U	java:S106("9Replace this use of System.out or System.err by a logger.(ğÍü°8Å¡šî0
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(ŠÜæ®8Å¡šî0

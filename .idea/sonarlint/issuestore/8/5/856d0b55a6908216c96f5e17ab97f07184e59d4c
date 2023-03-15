@@ -1,9 +1,0 @@
-
-‘
-java:S1845"tRename field "brands" to prevent any misunderstanding/clash with field "BRANDS" defined in interface "model.IBrand".(Ñ»«±8‚áŒ–î0
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(éºÿ¹8„áŒ–î0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¬Ý¤¬úÿÿÿÿ8‡áŒ–î0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(â¯ÜË8ˆáŒ–î0
-U	java:S106&"9Replace this use of System.out or System.err by a logger.(ðÍü°8‰áŒ–î0
-U	java:S106)"9Replace this use of System.out or System.err by a logger.(ŠÜæ®8‰áŒ–î0

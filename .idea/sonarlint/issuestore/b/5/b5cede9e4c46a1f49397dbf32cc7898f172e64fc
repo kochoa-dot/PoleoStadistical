@@ -1,19 +1,0 @@
-
-v
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Å­8ÄË¹î0
-†
-java:S1319"iThe type of "errorList" should be an interface such as "List" rather than the implementation "ArrayList".(¸–Š­8õâ©î0
-
-java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(°ï“¹8™â»î0
-r
-java:S1104"UMake errorList a static final constant or non-public and provide accessors if needed.(¸–Š­8ã¦·î0
-L
-java:S1444"/Make this "public static errorList" field final(¸–Š­8ã¦·î0
-:
-java:S2386"Make this member "protected".(¸–Š­8Ê§·î0
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ŸªæÑıÿÿÿÿ8šìî0
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(¾™½Òıÿÿÿÿ8œìî0
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(İãÍ»şÿÿÿÿ8œìî0
-U	java:S1068"9Replace this use of System.out or System.err by a logger.(ğÍü°8ìî0
-U	java:S106;"9Replace this use of System.out or System.err by a logger.(ŠÜæ®8ìî0

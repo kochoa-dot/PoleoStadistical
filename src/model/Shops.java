@@ -16,7 +16,7 @@ public class Shops implements IShop{
         int option;
 
         while (true) {
-            System.out.println("Seleccione la tienda");
+            System.out.println("Select store");
             for (String[] shop : shops) {
                 String idShop = shop[1];
                 if (idShop.equals(selectedBrand)) {
@@ -37,10 +37,10 @@ public class Shops implements IShop{
                 if (validOption) {
                     break;
                 } else {
-                    System.out.println("Error: debe ingresar un número válido");
+                    System.out.println("Error: You must enter a valid number\n");
                 }
             } else {
-                System.out.println("Error: debe ingresar un número entero");
+                System.out.println("Error: You must enter an integer number\n");
                 scanner.next();
             }
         }

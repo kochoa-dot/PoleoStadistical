@@ -1,8 +1,0 @@
-
-N
-java:S2386"1Move "BRANDS" to a class and lower its visibility(éËòÜ8–È€øí0
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»°“áşÿÿÿÿ8Ò×”î0
-M
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8˜È€øí0
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8˜È€øí0
