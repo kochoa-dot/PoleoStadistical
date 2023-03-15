@@ -7,8 +7,6 @@ public class Shops implements IShop{
     String [][] dataShops = {{"0", "0"}};
 
     String [][] shops = IShop.SHOPS;
-    String shopName;
-    int dataServer;
 
     public String [][] SelectShop(String selectedBrand) {
 
