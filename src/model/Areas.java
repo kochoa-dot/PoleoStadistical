@@ -66,23 +66,11 @@ public class Areas implements IAreas{
         return idArea;
     }
 
-    public void setIdArea(int idArea) {
-        this.idArea = idArea;
-    }
-
     public String getAreaName() {
         return areaName;
     }
 
-    public void setAreaName(String areaName) {
-        this.areaName = areaName;
-    }
-
     public String getManager() {
         return manager;
-    }
-
-    public void setManager(String manager) {
-        this.manager = manager;
     }
 }
