@@ -1,0 +1,32 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’£Ê´üÿÿÿÿ8¯ö¨¢î0
+
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Óƒà³8°ö¨¢î0
+‰
+java:S1319?"lThe type of "incidentList" should be an interface such as "List" rather than the implementation "ArrayList".(Ì­À¦8°ö¨¢î0
+m
+java:S1104	"PMake date a static final constant or non-public and provide accessors if needed.(ùèæá8°ö¨¢î0
+y
+java:S1104
+"WMake countryName a static final constant or non-public and provide accessors if needed.(ú±ÇËûÿÿÿÿ8°ö¨¢î0
+q
+java:S1104"UMake brandName a static final constant or non-public and provide accessors if needed.(Ê„Ëy8°ö¨¢î0
+q
+java:S1104"TMake shopName a static final constant or non-public and provide accessors if needed.(×ËÖÒ8°ö¨¢î0
+v
+java:S1104"TMake areaName a static final constant or non-public and provide accessors if needed.(®Ù„æÿÿÿÿÿ8°ö¨¢î0
+y
+java:S1104"WMake managerName a static final constant or non-public and provide accessors if needed.(†Ê÷Âúÿÿÿÿ8°ö¨¢î0
+q
+java:S1104"UMake errorName a static final constant or non-public and provide accessors if needed.(ª êX8°ö¨¢î0
+‹
+java:S41654"iRemove this useless assignment; "newIncident" already holds the assigned value along all execution paths.(‹Ü»ïÿÿÿÿÿ8Áö¨¢î0
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(¥ñÃ÷8Çö¨¢î0
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(äÍ§ùşÿÿÿÿ8Çö¨¢î0
+n
+java:S3457@"Q%n should be used in place of \n to produce the platform-specific line separator.(Ë¯€8Èö¨¢î0
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(Ë¯€8Èö¨¢î0
+n
+java:S3457C"Q%n should be used in place of \n to produce the platform-specific line separator.(Â¾•Ã8Èö¨¢î0
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(Â¾•Ã8Éö¨¢î0

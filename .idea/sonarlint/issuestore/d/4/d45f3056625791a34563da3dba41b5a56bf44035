@@ -1,0 +1,13 @@
+
+™
+java:S1845"|Rename field "countries" to prevent any misunderstanding/clash with field "COUNTRIES" defined in interface "model.ICountry".(¢á¦ë8½±”—î0
+Z
+java:S1854 "=Remove this useless assignment to local variable "idCountry".(‡¸­8íÊˆ—î0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¹ÉÊĞùÿÿÿÿ8ğÊˆ—î0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¡üÿÿÿÿ8ğÊˆ—î0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Üùã–8ğÊˆ—î0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÈğ¨ıÿÿÿÿ8ğÊˆ—î0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ùëë‘8ğÊˆ—î0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÜæ®8ñÊˆ—î0
+K
+java:S1481 ".Remove this unused "idCountry" local variable.(‡¸­8ñÊˆ—î0

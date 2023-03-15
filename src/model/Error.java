@@ -1,0 +1,89 @@
+package model;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Error implements IError{
+
+    private int idError;
+    private int idArea;
+    private String nameError;
+    public static ArrayList<Error> errorList = getError();
+    public Error() {
+    }
+    public Error(int idError, int idArea, String nameError) {
+        this.idError = idError;
+        this.idArea = idArea;
+        this.nameError = nameError;
+    }
+    public static ArrayList<Error> getError() {
+        ArrayList<Error> errorList = new ArrayList<Error>();
+
+        errorList.add(new Error(1, 1, "Datos fiscales incompletos"));
+        errorList.add(new Error(2, 1, "Error por equivalencia"));
+        errorList.add(new Error(3, 2, "Enlace caido"));
+        errorList.add(new Error(4, 2, "Archivo no generado"));
+        errorList.add(new Error(5, 3, "Archivo no se transfiere automaticamente"));
+        errorList.add(new Error(6, 3, "Servidor Apagado"));
+        return errorList;
+    }
+    @Override
+    public Error SelectError(int idArea) {
+        Error errorResult = new Error();
+        Scanner scanner = new Scanner(System.in);
+        int option;
+
+        while (true){
+            System.out.println("Seleccione el error generado");
+            for (Error error : errorList){
+                if (error.idArea == idArea){
+                    System.out.println(error.getIdError() + ". " + error.getNameError());
+                }
+            }
+            if (scanner.hasNextInt()){
+                option = scanner.nextInt();
+                boolean validOption = false;
+                for (Error error : errorList){
+                    if (error.idError == option && error.idArea == idArea){
+                        validOption = true;
+                        errorResult = error;
+                        break;
+                    }
+                }
+                if (validOption){
+                    break;
+                } else {
+                    System.out.println("Error: debe ingresar un número válido");
+                }
+            } else {
+                System.out.println("Error: debe ingresar un número entero");
+                scanner.next();
+            }
+        }
+        return errorResult;
+    }
+
+    public int getIdError() {
+        return idError;
+    }
+
+    public void setIdError(int idError) {
+        this.idError = idError;
+    }
+
+    public int getIdArea() {
+        return idArea;
+    }
+
+    public void setIdArea(int idArea) {
+        this.idArea = idArea;
+    }
+
+    public String getNameError() {
+        return nameError;
+    }
+
+    public void setNameError(String nameError) {
+        this.nameError = nameError;
+    }
+}
