@@ -67,23 +67,7 @@ public class Error implements IError{
         return idError;
     }
 
-    public void setIdError(int idError) {
-        this.idError = idError;
-    }
-
-    public int getIdArea() {
-        return idArea;
-    }
-
-    public void setIdArea(int idArea) {
-        this.idArea = idArea;
-    }
-
     public String getNameError() {
         return nameError;
-    }
-
-    public void setNameError(String nameError) {
-        this.nameError = nameError;
     }
 }
