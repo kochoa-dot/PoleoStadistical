@@ -1,6 +1,4 @@
 
-B
-src/ui/UIMenu.java,0\2\02b26e365fe090ce18a39c5b8f37f3533c4bfd90
 D
 src/model/IShop.java,0\4\04bb5e7df2098766e9d55a8d1c4f80b296207e56
 G
@@ -21,7 +19,3 @@ F
 src/model/Country.java,d\4\d45f3056625791a34563da3dba41b5a56bf44035
 D
 src/model/Brand.java,8\5\856d0b55a6908216c96f5e17ab97f07184e59d4c
-=
-src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
-H
-src/model/Incidents.java,4\7\47659b3a2d291c2eb14e286a1f4645703c2dc290

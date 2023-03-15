@@ -58,8 +58,6 @@ public class Incidents {
         }
         return incidentsList;
     }
-
-
     public void printIncidents(ArrayList<Incidents> incidentList){
         System.out.printf("%-12s%-12s%-12s%-12s%-12s%-18s%-12s\n", "Fecha", "Country", "Brand", "Shop", "Area", "Manager", "Error");
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
